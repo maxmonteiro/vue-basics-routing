@@ -19,7 +19,8 @@ const routes = [
 
 // creating router object with the routes to use in the vue application
 const router = new VueRouter({
-    routes
+    routes,
+    mode: 'history' // remove the # from the url
 })
 
 // adding the router to the vue instance
