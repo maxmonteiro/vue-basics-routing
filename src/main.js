@@ -17,6 +17,10 @@ const routes = [
     { path: '/users', component: Users }
 ]
 
+// creating router object with the routes to use in the vue application
+const router = new VueRouter({
+    routes
+})
 
 new Vue({
     render: h => h(App),
