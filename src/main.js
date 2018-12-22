@@ -22,6 +22,13 @@ const router = new VueRouter({
     routes
 })
 
+// adding the router to the vue instance
 new Vue({
+    el: '#app',
+    router,
+    render: h => h(App)
+})
+
+/* new Vue({
     render: h => h(App),
-}).$mount('#app')
+}).$mount('#app') */
