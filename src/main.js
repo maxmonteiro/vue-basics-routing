@@ -14,7 +14,7 @@ Vue.use(VueRouter)
 // list of routes
 const routes = [
     { path: '/', component: Home },
-    { path: '/users', component: Users }
+    { path: '/users/:id', component: Users }
 ]
 
 // creating router object with the routes to use in the vue application
